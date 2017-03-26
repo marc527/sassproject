@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Baloo+Bhaina|Open+Sans");
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -52,4 +54,60 @@ a img {
 
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
+}
+
+body h1, body h2, body h3, body h4, body h5, body h6 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  color: #2176C7;
+}
+body header {
+  border-bottom: 1px solid rgba(4, 32, 41, 0.2);
+}
+body header nav a {
+  color: rgba(33, 118, 199, 0.8);
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: .05rem;
+  font-family: "Baloo Bhaina", cursive;
+  font-size: 2.2rem;
+  display: block;
+  padding: 20px;
+}
+body header nav a:hover {
+  color: #f7b71a;
+}
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.layout {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 3%;
+}
+.layout:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+.layout .secondary {
+  margin-top: .2em;
+}
+
+.report {
+  overflow: hidden;
+  *zoom: 1;
+}
+.report h2 {
+  font-size: 4rem;
+  letter-spacing: .05rem;
+}
+.report table tbody tr td {
+  padding: 10px;
+  text-align: center;
 }

@@ -1,0 +1,31 @@
+//Report table ---------------------------------------------
+.report {
+
+  @include clearfix;
+
+  h2 {
+    font-size: 4rem;
+    letter-spacing: .05rem;
+    // @include text-shadow($paleyellow 1px 1px);
+  }
+
+  table {
+
+    thead {
+      tr {
+      th {
+      }
+      }
+    }
+
+    tbody {
+      tr {
+        td {
+          padding: $gutter;
+          text-align: center;
+        }
+      }
+    }
+  }
+
+}

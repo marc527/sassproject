@@ -1,7 +1,15 @@
 // style.scss
 // ==============
 
-//Compass imports
+//Compass & Susi imports
 @import "compass";
 @import "compass/reset";
+@import "susy";
 @import "compass/css3/box-shadow";
+
+//Partials imports
+@import "variables";
+@import "mixins";
+@import "base";
+@import "layout";
+@import "modules";

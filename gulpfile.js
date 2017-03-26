@@ -38,7 +38,7 @@ gulp.task('html', function(){
 
 gulp.task('watch', function(){
   gulp.watch(jsSources, ['js']);
-  gulp.watch(sassSources, ['compass']);
+  gulp.watch('components/sass/*.scss', ['compass']);
   gulp.watch('builds/development/*.html', ['html']);
 });
 
