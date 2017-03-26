@@ -2,7 +2,7 @@
 var $ = require("jquery");
 
 $(document).ready(function(){
-  alert('jquery added');
+  console.log('jquery added');
 });
 
 },{"jquery":2}],2:[function(require,module,exports){

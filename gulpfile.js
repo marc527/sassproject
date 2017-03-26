@@ -23,7 +23,8 @@ gulp.task('compass', function(){
     css: 'builds/development/css',
     sass: 'components/sass',
     image: 'builds/development/images',
-    style: 'expanded'
+    style: 'expanded',
+    require: ['susy']
   })
   .on('error', gutil.log))
   .pipe(gulp.dest('builds/development/css'))
