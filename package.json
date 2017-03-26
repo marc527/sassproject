@@ -17,6 +17,10 @@
   },
   "homepage": "https://github.com/marc527/sassproject#readme",
   "devDependencies": {
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "gulp-browserify": "^0.5.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect": "^5.0.0",
+    "jquery": "^3.2.1"
   }
 }
