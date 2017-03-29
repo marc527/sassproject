@@ -12,7 +12,10 @@ var sassSources = ['components/sass/style.scss'];
 gulp.task('js', function(){
   gulp.src(jsSources)
     .pipe(concat('scripts.js'))
-    .pipe(browserify())
+    .pipe(browserify({
+      "transform": "reactify",
+      "debug": true
+    }))
     .pipe(gulp.dest('builds/development/js'))
     .pipe(connect.reload())
 });
