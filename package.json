@@ -22,9 +22,18 @@
     "gulp-compass": "^2.1.0",
     "gulp-concat": "^2.6.1",
     "gulp-connect": "^5.0.0",
+    "gulp-react": "^3.1.0",
     "gulp-util": "^3.0.8",
     "gulp-watch": "^4.3.11",
     "jquery": "^3.2.1",
+    "lodash": "^4.17.4",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "reactify": "^1.1.1",
+    "reactify-with-transforms": "^1.0.0",
     "susy": "^2.2.12"
+  },
+  "dependencies": {
+    "shopify-node-api": "^1.7.6"
   }
 }
